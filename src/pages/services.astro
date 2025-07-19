@@ -1,0 +1,105 @@
+---
+import DefaultLayout from '@layouts/DefaultLayout.astro'
+import Feature from '@components/Feature.astro'
+import ContentMedia from '@components/ContentMedia.astro'
+---
+
+<DefaultLayout title="Services - MegaNode" description="Professional blockchain validator services and Web3 infrastructure solutions">
+  <section class="my-24">
+    <div class="container">
+      <h1 class="mb-8 text-6xl">Our Services</h1>
+      <p class="text-2xl text-muted">
+        Comprehensive blockchain infrastructure and validator services for the Web3 ecosystem.
+      </p>
+    </div>
+  </section>
+
+  <section class="my-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Validator Services</h2>
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <Feature icon="lucide:shield-check" title="Ethereum Validator">
+          Professional Ethereum 2.0 validator services with 99.9% uptime guarantee. Earn staking rewards while contributing to network security.
+        </Feature>
+        <Feature icon="lucide:network" title="Polygon Validator">
+          High-performance Polygon validator nodes with optimized infrastructure for maximum rewards and network participation.
+        </Feature>
+        <Feature icon="lucide:zap" title="Solana Validator">
+          Lightning-fast Solana validator services with enterprise-grade hardware and monitoring systems.
+        </Feature>
+        <Feature icon="lucide:globe" title="Polkadot Validator">
+          Reliable Polkadot validator services supporting the multi-chain ecosystem with advanced security protocols.
+        </Feature>
+        <Feature icon="lucide:trending-up" title="Cosmos Validator">
+          Professional Cosmos validator services with comprehensive monitoring and analytics tools.
+        </Feature>
+        <Feature icon="lucide:settings" title="Custom Validators">
+          Custom validator solutions for emerging blockchain networks with tailored infrastructure and support.
+        </Feature>
+      </div>
+    </div>
+  </section>
+
+  <ContentMedia imgSrc="/accessible-components.webp">
+    <h2>Web3 Infrastructure</h2>
+    <p class="text-2xl">
+      Complete Web3 infrastructure solutions including RPC endpoints, API services, and developer tools. Our infrastructure supports thousands of developers and applications worldwide.
+    </p>
+  </ContentMedia>
+
+  <section class="my-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Infrastructure Services</h2>
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
+        <div class="space-y-8">
+          <div>
+            <h3 class="mb-4 text-3xl">RPC Endpoints</h3>
+            <p class="text-lg text-muted">
+              High-performance RPC endpoints for Ethereum, Polygon, Solana, and other major networks. 
+              Sub-second response times with 99.9% uptime guarantee.
+            </p>
+          </div>
+          <div>
+            <h3 class="mb-4 text-3xl">API Services</h3>
+            <p class="text-lg text-muted">
+              Comprehensive blockchain APIs for transaction data, token information, and network analytics. 
+              RESTful and GraphQL endpoints available.
+            </p>
+          </div>
+          <div>
+            <h3 class="mb-4 text-3xl">Developer Tools</h3>
+            <p class="text-lg text-muted">
+              SDKs, libraries, and development tools to accelerate your Web3 application development. 
+              Support for multiple programming languages and frameworks.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-8">
+          <div>
+            <h3 class="mb-4 text-3xl">Monitoring & Analytics</h3>
+            <p class="text-lg text-muted">
+              Real-time monitoring dashboards and analytics tools for validator performance, 
+              network health, and reward tracking.
+            </p>
+          </div>
+          <div>
+            <h3 class="mb-4 text-3xl">Security Services</h3>
+            <p class="text-lg text-muted">
+              Enterprise-grade security protocols including hardware security modules, 
+              encrypted communications, and regular security audits.
+            </p>
+          </div>
+          <div>
+            <h3 class="mb-4 text-3xl">24/7 Support</h3>
+            <p class="text-lg text-muted">
+              Dedicated technical support team available around the clock. 
+              Automated alerts and proactive issue resolution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</DefaultLayout> 

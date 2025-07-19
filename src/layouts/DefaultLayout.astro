@@ -7,11 +7,11 @@ import Footer from '../components/Footer.astro'
 import { ClientRouter } from 'astro:transitions'
 
 const {
-  title = 'Accessible Astro',
-  description = 'A starter project with accessibility features using Astro static site builder. Contains accessible landmarks, skip links, a dark mode color scheme, better focus outline and keyboard menu navigation.',
+  title = 'MegaNode - Blockchain Validator',
+  description = 'MegaNode chuyên về validator, blockchain infrastructure và giải pháp Web3. Đảm bảo tính bảo mật và hiệu suất cao cho mạng lưới blockchain.',
   url = Astro.site,
-  image = 'social-preview-image.png',
-  author = 'Incluud',
+  image = 'https://res.cloudinary.com/dytygu3xf/image/upload/v1752913143/og-image_ofs3qz.png',
+  author = 'MegaNode',
 } = Astro.props
 ---
 
@@ -21,10 +21,9 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <SiteMeta title={title} description={description.substring(0, 100)} url={url} image={image} author={author} />
+
 
     <!-- Enable Astro View Transitions for all browsers -->
     <ClientRouter />

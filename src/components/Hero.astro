@@ -14,7 +14,7 @@ interface Props {
   src?: string
 }
 
-const { src = '/astronaut-hero-img.webp' }: Props = Astro.props
+const { src = 'https://res.cloudinary.com/dytygu3xf/image/upload/v1752912564/246987749_add53a12-6e3a-43e0-a678-7bf40a43a058_dyshka.jpg' }: Props = Astro.props
 ---
 
 <section class="hero my-24">
@@ -22,20 +22,20 @@ const { src = '/astronaut-hero-img.webp' }: Props = Astro.props
     <div class="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
       <div class="flex flex-col items-center gap-8 md:items-start">
         <h1 class="text-center text-6xl md:text-left lg:text-8xl">
-          <slot><span class="text-gradient">Accessible</span> Starter for Astro</slot>
+          <slot><span class="text-gradient">MegaNode</span> Blockchain Validator</slot>
         </h1>
         <div class="flex flex-col gap-3 min-[500px]:flex-row">
-          <a class="button has-icon" href="https://github.com/incluud/accessible-astro-starter">
-            <Icon name="lucide:star" />
-            Star on GitHub
+          <a class="button has-icon" href="/services">
+            <Icon name="lucide:shield-check" />
+            Validator Services
           </a>
-          <a class="button has-icon color-secondary" href="https://accessible-astro.incluud.dev/">
-            <Icon name="lucide:bookmark" />
-            Read the docs
+          <a class="button has-icon color-secondary" href="/about">
+            <Icon name="lucide:users" />
+            About Us
           </a>
         </div>
       </div>
-      <Image class="hidden lg:block" src={src} alt="" decoding="async" width={800} height={600} loading="eager" />
+      <Image class="hidden lg:block" src={src} alt="MegaNode blockchain infrastructure visualization" decoding="async" width={800} height={600} loading="eager" />
     </div>
   </div>
 </section>

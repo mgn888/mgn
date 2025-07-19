@@ -1,0 +1,78 @@
+---
+import DefaultLayout from '@layouts/DefaultLayout.astro'
+import Feature from '@components/Feature.astro'
+import { Icon } from 'astro-icon/components'
+---
+
+<DefaultLayout title="Contact - MegaNode" description="Connect with MegaNode through our social media channels for blockchain validator services and Web3 infrastructure solutions">
+  <section class="my-24">
+    <div class="container">
+      <h1 class="mb-8 text-6xl">Connect With Us</h1>
+      <p class="text-2xl text-muted">
+        Follow us on social media for the latest updates, insights, and to get in touch with our team.
+      </p>
+    </div>
+  </section>
+
+  <section class="my-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Follow Us</h2>
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <a href="https://twitter.com/meganode_org" class="block transition-transform hover:scale-105">
+          <Feature icon="lucide:twitter" title="Twitter">
+            Follow us for real-time updates on blockchain technology, validator services, and Web3 developments. Connect with our community and stay updated with the latest trends.
+          </Feature>
+        </a>
+        <a href="https://t.me/" class="block transition-transform hover:scale-105">
+          <Feature icon="lucide:message-circle" title="Telegram">
+            Join our community chat for technical discussions, support, and networking with other blockchain enthusiasts. Get instant answers to your questions.
+          </Feature>
+        </a>
+        <a href="https://discord.gg/" class="block transition-transform hover:scale-105">
+          <Feature icon="lucide:message-square" title="Discord">
+            Connect with our team and community in real-time. Get technical support and participate in discussions about blockchain technology and validator services.
+          </Feature>
+        </a>
+        <a href="https://github.com/mgn888" class="block transition-transform hover:scale-105">
+          <Feature icon="lucide:github" title="GitHub">
+            Explore our open-source projects, tools, and contributions to the blockchain ecosystem. Contribute to our codebase and collaborate with developers.
+          </Feature>
+        </a>
+        <a href="https://medium.com/" class="block transition-transform hover:scale-105">
+          <Feature icon="lucide:book-open" title="Medium">
+            Read our latest articles, tutorials, and insights about blockchain technology and validator services. Learn from our expertise and industry knowledge.
+          </Feature>
+        </a>
+        <a href="https://linkedin.com/" class="block transition-transform hover:scale-105">
+          <Feature icon="lucide:linkedin" title="LinkedIn">
+            Connect with our team professionally and stay updated with industry news and company updates. Network with blockchain professionals and industry leaders.
+          </Feature>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="my-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Get In Touch</h2>
+      <div class="text-center">
+        <p class="mb-8 text-2xl text-muted">
+          Have questions about our validator services or want to discuss a partnership?
+        </p>
+        <p class="mb-12 text-lg text-muted">
+          Reach out to us through any of our social media channels above. We typically respond within 24 hours.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="https://twitter.com/meganode_org" class="button has-icon">
+            <Icon name="lucide:twitter" />
+            Follow on Twitter
+          </a>
+          <a href="https://t.me/" class="button has-icon color-secondary">
+            <Icon name="lucide:message-circle" />
+            Join Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</DefaultLayout> 
